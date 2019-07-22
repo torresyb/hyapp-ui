@@ -1,6 +1,6 @@
 # pull-down
 
-##### [demo原始链接](http://172.17.16.112:8888/examples/#/pullDown) | [demo源码](http://172.16.0.245:2345/Finance_H5/H5_hyapp-ui/blob/develop/examples/routers/pullDown.vue) | [组件源码](http://172.16.0.245:2345/Finance_H5/H5_hyapp-ui/tree/develop/src/packages/pull-down)
+##### [demo原始链接](http://172.17.16.112:8888/examples/#/pullDown) | [demo源码](http://gitlab.jr.2345.net/finance_h5/h5_hyapp-ui/blob/dev/examples/routers/pullDown.vue) | [组件源码](http://gitlab.jr.2345.net/finance_h5/h5_hyapp-ui/tree/dev/src/packages/pull-down)
 ---
 > 最低兼容版本：**2.3.0**
 

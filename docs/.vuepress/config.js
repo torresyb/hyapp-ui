@@ -18,9 +18,9 @@ module.exports = {
                 items: [
                     {
                         text: 'hyapp-ui',
-                        link: 'http://172.16.0.245:2345/Finance_H5/H5_hyapp-ui'
+                        link: 'http://gitlab.jr.2345.net/finance_h5/h5_hyapp-ui'
                     },
-                    { text: 'gitLab', link: 'http://172.16.0.245:2345/' }
+                    { text: 'gitLab', link: 'http://gitlab.jr.2345.net' }
                 ]
             }
         ],
@@ -44,32 +44,22 @@ module.exports = {
                 {
                     title: 'Notice弹框组件',
                     collapsable: true,
-                    children: [
-                        'base/action-sheet',
-                        'base/confirm',
-                        'base/mask',
-                        'base/popup'
-                    ]
+                    children: ['base/action-sheet', 'base/confirm', 'base/mask', 'base/popup']
                 },
                 {
                     title: 'Others组件',
                     collapsable: true,
-                    children: [
-                        'base/textarea',
-                        'base/address',
-                        'base/date-picker',
-                         'base/picker',
-                        'base/index-list',
-                        'base/pull-down',
-                        'base/swiper'
-                    ]
+                    children: ['base/textarea', 'base/address', 'base/date-picker', 'base/picker', 'base/index-list', 'base/pull-down', 'base/swiper']
                 },
                 {
                     title: '活动类组件',
                     collapsable: true,
-                    children: [
-                        'base/scratch-card',
-                    ]
+                    children: ['base/scratch-card']
+                },
+                {
+                    title: 'Hyapp-Utils',
+                    collapsable: true,
+                    children: ['base/hyapp-utils']
                 }
             ]
         }
