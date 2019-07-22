@@ -1,5 +1,7 @@
 # hyapp-utils
 
+> 手动初始化从 **2.0.3** 版本开始支持
+
 ## 安装
 
 使用 `npm` 直接安装或者更新
@@ -12,12 +14,29 @@ npm install hyapp-utils --save
 
 ### main.js 中调用
 
+#### 自动初始化 jsBridge
+
 ---
 
 ```js
 import hyapp from 'hyapp-utils'
 
 Vue.use(hyapp.Tools)
+```
+
+#### 手动初始化 jsBridge
+
+---
+
+```js
+import hyapp from 'hyapp-utils'
+
+Vue.use(hyapp.ToolsManual)
+
+// 手动初始化jsBridge，初始化完成执行回调
+window.setupWebViewJavascriptBridge(bridge => {
+    callback(bridge) // jsBridge初始化完成回调
+})
 ```
 
 ## 暴露方法及使用

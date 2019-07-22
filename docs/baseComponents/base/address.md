@@ -1,6 +1,6 @@
 # address
 
-##### [demo原始链接](http://172.17.16.112:8888/examples/#/address) | [demo源码](http://172.16.0.245:2345/Finance_H5/H5_hyapp-ui/blob/develop/examples/routers/address.vue) | [组件源码](http://172.16.0.245:2345/Finance_H5/H5_hyapp-ui/tree/develop/src/packages/address)
+##### [demo原始链接](http://172.17.16.112:8888/examples/#/address) | [demo源码](http://gitlab.jr.2345.net/finance_h5/h5_hyapp-ui/blob/dev/examples/routers/address.vue) | [组件源码](http://gitlab.jr.2345.net/finance_h5/h5_hyapp-ui/tree/dev/src/packages/address)
 ---
 
 > 最低兼容版本：**2.3.0**
@@ -23,13 +23,13 @@ export default {
 | --- | --- | --- | --- | --- |
 | show | `Boolean` | false | 是否展示地址选择组件（使用 <span style="color: #900">**.sync**</span> 修饰，地址组件隐藏时会更新其值） | |
 | title | `String` |  | 地址选择组件标题 | |
-| list | `Array` | [] | 地址列表。取接口返回值，或使用默认地址[ChinaAddressData](http://172.16.0.245:2345/Finance_H5/H5_hyapp-ui/blob/develop/src/packages/address/city.json)（默认值需手动引入） | |
+| list | `Array` | [] | 地址列表。取接口返回值，或使用默认地址[ChinaAddressData](http://gitlab.jr.2345.net/finance_h5/h5_hyapp-ui/blob/dev/src/packages/address/city.json)（默认值需手动引入） | |
 | value | `Array` | [] | 默认值，使用 `v-model` 绑定。格式[1, 2, 3] | |
 
 ::: tip 
 show属性需使用.sync修饰。vue中使用 <span style="color: #900">**:show.sync**</span>
 
-如果你需要单独引入地址数据，可以在源码[/src/packages/address/city.json](http://172.16.0.245:2345/Finance_H5/H5_hyapp-ui/blob/develop/src/packages/address/city.json)找到
+如果你需要单独引入地址数据，可以在源码[/src/packages/address/city.json](http://gitlab.jr.2345.net/finance_h5/h5_hyapp-ui/blob/dev/src/packages/address/city.json)找到
 :::
 
 ## 事件

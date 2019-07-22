@@ -18,9 +18,9 @@ module.exports = {
                 items: [
                     {
                         text: 'hyapp-ui',
-                        link: 'http://172.16.0.245:2345/Finance_H5/H5_hyapp-ui'
+                        link: 'http://gitlab.jr.2345.net/finance_h5/h5_hyapp-ui'
                     },
-                    { text: 'gitLab', link: 'http://172.16.0.245:2345/' }
+                    { text: 'gitLab', link: 'http://gitlab.jr.2345.net' }
                 ]
             }
         ],
